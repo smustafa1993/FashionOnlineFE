@@ -9,36 +9,36 @@ export const GetCart = async () => {
   }
 }
 
-export const AddToCart = async (data) => {
+export const AddToCart = async ({ productId, quantity }) => {
   try {
-    const res = await Client.post("/carts/addtocart", data)
+    const res = await Client.post("/carts/addtocart", { productId, quantity })
     return res.data
   } catch (error) {
     throw error
   }
 }
 
-export const RemoveFromCart = async (data) => {
+export const RemoveFromCart = async ({ productId }) => {
   try {
-    const res = await Client.post("/carts/removefromcart", data)
+    const res = await Client.post("/carts/removefromcart", { productId })
     return res.data
   } catch (error) {
     throw error
   }
 }
 
-export const IncreaseQty = async (data) => {
+export const IncreaseQty = async ({ productId }) => {
   try {
-    const res = await Client.post("/carts/increase", data)
+    const res = await Client.post("/carts/increase", { productId })
     return res.data
   } catch (error) {
     throw error
   }
 }
 
-export const DecreaseQty = async (data) => {
+export const DecreaseQty = async ({ productId }) => {
   try {
-    const res = await Client.post("/carts/decrease", data)
+    const res = await Client.post("/carts/decrease", { productId })
     return res.data
   } catch (error) {
     throw error
