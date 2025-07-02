@@ -8,8 +8,8 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import Typography from '@mui/material/Typography'; 
 import Box from '@mui/material/Box'; 
-
 import { UpdatePw } from '../services/Auth';
+import { toast } from 'react-toastify';
 
 const EditPwBtn = ({ id }) => {
   const [open, setOpen] = useState(false)

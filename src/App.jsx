@@ -9,6 +9,10 @@ import Register from './pages/Register'
 import Products from './pages/Products'
 import ProdDetail from './pages/ProdDetail'
 import Account from './pages/Account'
+import Cart from './pages/Cart'
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
+
 
 const App = () => {
   const [user, setUser] = useState(null)
@@ -44,8 +48,12 @@ const App = () => {
           <Route path="/products" element={<Products user={user}/>}/>
           <Route path="/products/:id" element={<ProdDetail user={user}/>}/>
           <Route path="/account" element={<Account user={user}/>}/>
+          <Route path="/carts" element={<Cart user={user}/>}/>
+          <Route path="/cart" element={<Cart user={user}/>} />
         </Routes>
       </main>
+      
+      <ToastContainer position="bottom-center" autoClose={2000} hideProgressBar />
     </>
   )
 }
