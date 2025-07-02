@@ -1,12 +1,80 @@
-# React + Vite
+# PixelFit – Online Fashion Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application where users can browse fashion products, manage their accounts, and administrators can add new inventory.
 
-Currently, two official plugins are available:
+Designed for a seamless shopping experience with robust authentication and easy product management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screenshot 1](./images/Homepage.png)  
+![Screenshot 2](./images/ProductListing.png)
+![Screenshot 3](./images/AccountPage.png)
+![Screenshot 4](./images/AdminAddProduct.png)
+![Screenshot 5](./images/SignIn.png)
+---
+
+## App Name & Purpose
+
+**PixelFit**  
+A modern online store for fashion items, built with the MERN stack and styled with Material-UI.
+
+### Features
+- User authentication (sign up, sign in)  
+- User account management (change password)  
+- Admin panel for product creation  
+- Browse and view product details  
+
+### Why this app?
+PixelFit was developed to solidify skills in user authentication, role-based authorization, CRUD operations for product management, and effective utilization of Material-UI for responsive and clean user interfaces.
+
+---
+
+## Getting Started
+
+### Deployed App  
+> [PixelFit on Render (Replace with your link)]()
+
+### Planning Docs  
+- [**ERD**](https://your-erd-link.com)
+- [**Component Hierarchy Diagram**](https://your-erd-link.com)
+---
+
+## Technologies Used
+
+| Layer     | Tech                     |
+|-----------|--------------------------|
+| Frontend  | React.js                 |
+| Styling   | Material-UI (MUI) & CSS  |
+| Backend   | Express.js               |
+| Database  | MongoDB (via Mongoose)   |
+| Server    | Node.js                  |
+
+
+---
+
+## Features
+
+- Secure user authentication and session management  
+- Dedicated account page for password updates  
+- Admin-specific access for adding new products  
+- Client-side form validation with in-dialog messaging  
+- User-friendly interface with Material-UI components  
+
+---
+
+## Attributions
+
+- UI Framework: Material-UI  
+- Hosting: Render  
+---
+
+## Next Steps
+
+Here’s what we’d like to implement next:
+- Shopping cart functionality  
+- Product search and filtering  
+- User order history    
+- User reviews for products
+- Better UI/UX 
