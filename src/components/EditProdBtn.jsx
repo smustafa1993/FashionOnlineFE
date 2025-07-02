@@ -8,6 +8,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import { GetProdById } from '../services/Prod';
 import { UpdateProd } from '../services/Prod';
+import { toast } from 'react-toastify';
 
 const EditProdBtn = ({id, setEdited}) => {
   const [open, setOpen] = React.useState(false);
@@ -38,6 +39,7 @@ const EditProdBtn = ({id, setEdited}) => {
         await UpdateProd(id, product)
         setOpen(false)
         setEdited(true)
+        toast("Product edited successfully")
     } catch (error) {
         console.error("Error updating product", error)
         setOpen(false)

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { CreateProd } from "../services/Prod"
 import { useNavigate } from 'react-router-dom'
+import { toast } from "react-toastify"
 
 const AddProd = () => {
     let navigate = useNavigate()
@@ -40,6 +41,7 @@ const AddProd = () => {
         }) 
 
         setFormVals(initialState);
+        toast("Added to Products!")
         navigate("/products");
         } catch (error) {
             throw error
