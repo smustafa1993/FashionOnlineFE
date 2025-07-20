@@ -8,11 +8,14 @@ Designed for a seamless shopping experience with robust authentication and easy 
 
 ## Screenshot
 
-![Screenshot 1](./images/Homepage.png)  
-![Screenshot 2](./images/ProductListing.png)
-![Screenshot 3](./images/AccountPage.png)
-![Screenshot 4](./images/AdminAddProduct.png)
-![Screenshot 5](./images/SignIn.png)
+<img width="1920" height="1080" alt="Screenshot_24" src="https://github.com/user-attachments/assets/374795a6-1d82-4b4c-a0fc-a4d0a3706fb9" />
+<img width="1920" height="1080" alt="Screenshot_25" src="https://github.com/user-attachments/assets/0827fae9-f190-4cc1-a500-60e95f2c7d25" />
+<img width="1920" height="1080" alt="Screenshot_26" src="https://github.com/user-attachments/assets/9cfc2108-ee9a-4a69-9dc0-bcb04dc304ac" />
+<img width="1920" height="1080" alt="Screenshot_27" src="https://github.com/user-attachments/assets/a1d60095-003d-4921-af36-010b5f040441" />
+<img width="1920" height="1080" alt="Screenshot_29" src="https://github.com/user-attachments/assets/d13d7db2-9cb0-4ecb-838c-5d4772f5c4f2" />
+<img width="1920" height="1080" alt="Screenshot_31" src="https://github.com/user-attachments/assets/67be4795-5344-45c5-ab16-d7cdee886306" />
+<img width="1920" height="1080" alt="Screenshot_32" src="https://github.com/user-attachments/assets/438b5110-c1e7-4f15-9378-48c4a19b1ac2" />
+
 ---
 
 ## App Name & Purpose
